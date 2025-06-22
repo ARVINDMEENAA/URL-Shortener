@@ -1,0 +1,88 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    max-width: 95%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+input[type="url"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 20px;
+}
+
+ul#shortend-urls {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+ul#shortend-urls li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    word-break: break-word;
+    font-size: 14px;
+}
